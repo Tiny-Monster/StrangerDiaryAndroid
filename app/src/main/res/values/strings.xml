@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">陌生人日记</string>
+    <string name="diary">日记</string>
+    <string name="system">知识体系</string>
+    <string name="stranger">陌生人</string>
+    <string name="calendar">日历</string>
+    <string name="login">登&#160;&#160;录</string>
+    <string name="register">注&#160;&#160;册</string>
+    <string name="main_login">登 陆</string>
+    <string name="main_logout">退 出</string>
+    <string name="login_success">登录成功!</string>
+    <string name="register_success">注册成功!</string>
+    <string name="username_not_empty">用户名不能为空</string>
+    <string name="password_not_empty">密码不能为空</string>
+    <string name="password_not_equal">两次输入密码不一致</string>
+    <string name="sms_send_success">验证码发送成功</string>
+    <string name="sms_send_fail">验证码发送失败</string>
+    <string name="sms_verify_fail">验证码错误</string>
+    <string name="phone_num_error">密码不能为空</string>
+    <string name="collect_success">收藏成功</string>
+    <string name="uncollect_success">取消收藏</string>
+    <string name="navigation_drawer_open">打开</string>
+    <string name="navigation_drawer_close">关闭</string>
+    <string name="isLoging">登录中&#8230;</string>
+    <string name="isRegistering">注册中&#8230;</string>
+    <string name="favorite_article">喜欢的文章</string>
+    <string name="favorite_web">喜欢的网站</string>
+    <string name="about_us">关于我们</string>
+    <string name="version_format">%1$s\n%2$s</string>
+    <string name="exit">退出登录</string>
+    <string name="search">搜索</string>
+    <string name="search_keyword">关键词</string>
+    <string name="hot_search">大家都在搜</string>
+    <string name="web_search">常用网站</string>
+    <string name="share">分享</string>
+    <string name="collect">收藏</string>
+    <string name="open_in_browser">用浏览器打开</string>
+    <string name="feedback">信息反馈</string>
+    <string name="sponsor">友情资助</string>
+    <string name="set">系统设置</string>
+    <string name="recovery_data">恢复数据</string>
+    <string name="unlock_1">请输入手势解锁密码</string>
+    <string name="unlock_2">密码错误，请重新输入</string>
+    <string name="about_us_introduce">
+        <Data><![CDATA[
+        <h2>网站内容</h2>
+         <p>\t\t本网站每天新增20~30篇优质文章，并加入到现有分类中，
+             力求整理出一份优质而又详尽的知识体系，闲暇时间不妨上来学习下知识；
+             除此以外，并为大家提供平时开发过程中常用的工具以及常用的网址导航。
+         </p>
+         <p>\t\t当然这只是我们目前的功能，未来我们将提供更多更加便捷的功能...</p>
+         <p>\t\t如果您有任何好的建议:</p>
+         <p>\t\t关于网站排版\t关于新增常用网址以及工具\t未来你希望增加的功能等</p>
+         <p>\t\t可以在<a href="https://github.com/hongyangAndroid/xueandroid" target="_blank">https://github.com/hongyangAndroid/xueandroid</a>项目中以issue的形式提出，我将及时跟进。</p>
+         <p>\t\t如果您希望长期关注本站，可以加入我们的QQ群：<b>591683946</b></p>
+         <h2>源码位置</h2>
+         <p>\t\t本软件开源，如果你发现任何错误，不要犹豫，马上点击<a href="https://github.com/kangdongpu/WanAndroid" target="_blank">GitHub</a>，在上面发起<b>issue</b>或者提交<b>pull request</b>。</p>
+         ]]>
+        </Data>
+    </string>
+    <string name="about_introduce">
+        <Data><![CDATA[
+        <h2>软件简介</h2>
+         <p>\t\t本软件是几个软件方向的在校学生课余时间编写的，目的是为大家提供一个写日记的平台。陌生人日记提供写日记，同步日记，设置解锁手势，分享日记给陌生人，查看陌生人日记等简单而实用的功能，希望能满足大家日常使用的需求。
+         </p>
+         <p>\t\t当然这只是我们目前的功能，未来我们将提供更多更加便捷的功能...</p>
+         <p>\t\t如果您有任何好的建议:</p>
+         <h2>开发者简介</h2>
+         <h4>客户端攻城狮：小怪兽</h4>
+         <p>\t\t负责安卓客户端的开发</p>
+         <h4>后台攻城狮：yuyuyu</h4>
+         <p>\t\t负责后台服务器的开发</p>
+         <h2>分享应用</h2>
+         <p>\t\t如果您喜欢本软件，请分享给你的朋友，你的支持是我们最大的动力</p>
+         ]]>
+        </Data>
+    </string>
+    <string name="tip_no_data">没有数据哦</string>
+    <string name="tip_load_data">数据加载中&#8230;</string>
+    <string name="tip_load_error">加载出错</string>
+    <string name="connect_error">网络异常</string>
+    <string name="connect_timeout">连接超时</string>
+    <string name="request_timeout">请求超时</string>
+    <string name="parse_error">解析错误</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="track_line">铅笔</string>
+    <string name="Eraser">橡皮擦</string>
+    <string name="paint_title">绘图</string>
+    <string name="permission_deny">您必须同意所申请的必要权限才能正常使用该功能！</string>
+    <string name="ActivityNotFoundException">页面异常</string>
+    <string name="register_getCode">获取验证码</string>
+    <string name="register_input_psw">请输入密码</string>
+    <string name="register_psw_hint">确认密码</string>
+    <string name="load_error_reload">加载失败,点击重新加载</string>
+    <string name="load_more">加载更多</string>
+    <string name="no_more_data">没有更多数据了</string>
+    <string name="login_account_hint">请输入手机号</string>
+    <string name="login_psw_hint">请输入密码</string>
+    <string name="set_change_pwd">修改密码</string>
+    <string name="set_account_set">账号设置</string>
+    <string name="set_gesture">手势解锁</string>
+</resources>

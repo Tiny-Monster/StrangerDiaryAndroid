@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/menu_set"
+        android:title="@string/set"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_recovery_data"
+        android:title="@string/recovery_data"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_feedback"
+        android:title="@string/feedback"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/about_us"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_sponsor"
+        android:title="@string/sponsor"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_login_logout"
+        android:title="@string/main_login"
+        app:showAsAction="ifRoom" />
+</menu>

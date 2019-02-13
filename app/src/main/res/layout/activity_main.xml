@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/main_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottom_tab" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/main_add_diary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/bottom_tab"
+                android:src="@drawable/pen_ffffff"
+                android:background="@color/colorPrimary"
+                android:layout_alignParentRight="true"
+                android:layout_margin="20dp"
+                />
+
+            <LinearLayout
+                android:id="@+id/bottom_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:background="@color/white">
+
+                <Button
+                    android:id="@+id/btn_diary"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:drawablePadding="2dp"
+                    android:drawableTop="@drawable/main_tab_selector"
+                    android:padding="5dp"
+                    android:text="@string/diary"
+                    android:textColor="@color/tab_text_color" />
+
+                <Button
+                    android:id="@+id/btn_stranger"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:drawablePadding="2dp"
+                    android:drawableTop="@drawable/main_tab_selector"
+                    android:padding="5dp"
+                    android:text="@string/stranger"
+                    android:textColor="@color/tab_text_color" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@color/colorPrimary"
+            app:headerLayout="@layout/header_layout"
+            app:itemTextColor="@color/white"
+            app:menu="@menu/navigation_menu"
+            tools:ignore="RtlHardcoded" />
+    </android.support.v4.widget.DrawerLayout>
+</FrameLayout>

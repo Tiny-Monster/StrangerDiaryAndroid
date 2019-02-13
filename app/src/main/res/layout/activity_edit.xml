@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@color/white"
+    android:layout_marginTop="10dp">
+
+    <com.tinymonster.strangerdiary.ui.widget.RichEditor
+        android:id="@+id/edit_rich_edit"
+        android:layout_above="@+id/login_input_gap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:layout_above="@+id/edit_BottomMenu"
+        android:id="@+id/login_input_gap"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/gap_view_color" />
+
+        <GridView
+            android:id="@+id/edit_BottomMenu"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:numColumns="auto_fit"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
